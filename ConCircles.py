@@ -6,14 +6,14 @@ Created on Feb 7, 2019
 import matplotlib.pyplot as plt
 import numpy as np
 import math 
-
+# draws the circle
 def circle(center,rad):
     n = int(4*rad*math.pi)
     t = np.linspace(0,6.3,n)
     x = center[0]+rad*np.sin(t)
     y = center[1]+rad*np.cos(t)
     return x,y
-
+#function call here change here to do something completely differnt
 def draw_circles(ax,n,center,radius,w,v):
     if n>0:
         x,y = circle(center,radius)
@@ -28,7 +28,7 @@ def draw_circles(ax,n,center,radius,w,v):
       
 plt.close("all") 
 fig, ax = plt.subplots() 
-draw_circles(ax, 5, [0,0], 100,1/3,2/3)
+draw_circles(ax, 5, [0,0], 100,1/3,2/3) # make changes here
 ax.set_aspect(1.0)
 ax.axis('off')
 plt.show()
