@@ -23,7 +23,7 @@ orig_size = 800
 p = np.array([[0,0],[0,orig_size],[orig_size,orig_size],[orig_size,0],[0,0]]) #size or grid
 fig, ax = plt.subplots()
 
-draw_squares(ax,15,p,.8) # function call here 
+draw_squares(ax,15,p,.8) # function call here. Make changes here.
 
 ax.set_aspect(1.0) ##1.0 sets the aspect ration of the picture, try to keep at one.
 ax.axis('off') ##  turns on the axis grid numbers
