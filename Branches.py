@@ -30,7 +30,7 @@ size = 200
 p = np.array([[-size,-size],[0,0],[size,-size]]) #size or grid and draws line from left to right
 fig, ax = plt.subplots()
 
-draw_Fsquares(ax,8,p,size,.5) # main function call here 
+draw_Fsquares(ax,8,p,size,.5) # main function call here, make changes here to see different variations.
 
 ax.set_aspect(1) ##1.0 sets the aspect ratio of the picture, try to keep at one.
 ax.axis('off') ##  turns on the axis grid numbers
